@@ -22,21 +22,21 @@
 						<div class="inner">
 							<div class="logo"><span class="icon fa-gem"></span></div>
 							<h2>Jack Corfield's Portfolio</h2>
-							<p>Student completing Computer Games Programming BSc (Hons) at Staffordshire University and looking for a year long Games Programming internship for 2020/21 academic year</p>
+							<p>Student completing Computer Games Programming BSc (Hons) at Staffordshire University and looking for Graduate positions starting in the summer of 2022.</p>
 						</div>
 					</section>
 
 				<!-- Wrapper -->
 					<section id="wrapper">
 
-						<!-- One -->
+						<!-- One Opener -->
 							<section id="one" class="wrapper alt spotlight style6">
 								<div class="inner">
 									<a href="#" class="image"><img src="images/mugshot.jpg" alt="" /></a>
 									<div class="content">
 										<h2 class="major">Personal Profile</h2>
 										<p>
-									I am currently in my second year of study at Staffordshire University on Computer Games Programming BSc (Hons). I have been interested in studying computing ever since secondary school scoring A’s in both Maths and Computer Science. At A Level I obtained B’s in both subjects.
+									I am currently in my final year of study having spent the last 12 months living in Germany and working for Airbus Helicopters as a Software Engineer.
 									<br>
 									<br>
 									My love for computer games began at a young age, playing on a Gameboy Advanced, I sank hours into games like ‘Pokémon Ruby’ and ‘Sonic Advanced’. Over the years I have owned many consoles and played many more games with some of my favourites being ‘Age of Empires’ and ‘Witcher 3 the Wild Hunt’. With the skills I picked up from Computer Science and my love of games I decide to undertake my current course with the aim of forging a career in the computer games industry.
@@ -48,8 +48,27 @@
 								</div>
 							</section>
 
-						<!-- Two -->
-							<section id="two" class="wrapper spotlight style1">
+							<!-- Three TGP -->
+							<section id="three" class="wrapper spotlight style2">
+								<div class="inner">
+									<a href="#" class="image"><img src="images/level_editor.gif" alt="" /></a>
+									<div class="content">
+										<h2 class="major">Stronghold (C#/ Unity)</h2>
+										<p>
+										This project was completed as part of my Technical Games Production module at the end of my second year at University. In this project I worked with a team of 5 other programmers to produce a game in Unity in 8 weeks. We decided as a group that we wanted to take the rule set of Dungeons and Dragons and apply that to a game with the play style of something like Xcom. As this was the first project at University that any of us had worked on as team and was completed remotely during the first lockdown we wanted to make use of Scrum and Kanban to try and give some structure to our teamwork. During this I acted as the Scrum master for our team and organised the daily standups that we ran for the length of the project.
+										<br>
+										<br>
+										My responsibility in terms of programming was to build the level editior that out game made use of. The idea behind this was the it make it easier for our own programmers to make the levels we used for our demonstration, but also that if this were being released as a real game it would be good if the community who played the game would be able to make their own levels too. The editor allowed the user to click an existing tile which would become highlighted and then could spawn one of twp tile tile types in any of the cardinal directions. I also wanted to be able to allow for a degree of verticality in the levels, so I added a ladder tile that could have tile either placed at the top or the bottom of it but could not have environment decorations.
+										<br>
+										<br>
+										Given that I had the most in depth knowledge of the map system I was also given the job of making the path finding system that allowed for the chacter to move around the level. For this I decided to write my own A* Algorithm instead of using the built in one to Unity as it gave me a greater degree of control over how it worked. The main thing I needed extra control over was the movement costs of different tiles. We wanted the ability to have "difficult" terrain which meant that the movement cost across it was doubled. I also wanted the grid used by the pathfinding algorithm to be created dynamically created for each level as this not only made it easier for the level creator but also meant that certain tiles could have been added or removed during gameplay and the grid would dynamically adapt to this at runtime.
+										</p>
+									</div>
+								</div>
+							</section>
+
+						<!-- Two Pacman -->
+							<section id="two" class="wrapper alt spotlight style1">
 								<div class="inner">
 									<a href="#" class="image"><img src="images/pacman.gif" alt="" /></a>
 									<div class="content">
@@ -64,23 +83,8 @@
 								</div>
 							</section>
 
-						<!-- Three -->
-							<section id="three" class="wrapper alt spotlight style2">
-								<div class="inner">
-									<a href="#" class="image"><img src="images/opengl.gif" alt="" /></a>
-									<div class="content">
-										<h2 class="major">Simple 3D Scene (C++/ OpenGL)</h2>
-										<p>
-										This assignment was to use OpenGL in order to render a simple scene. The main components of this were to set up correct material and lighting and create a function capable of loading OBJ files into the scene.  
-										<br>
-										<br>
-										Completing this project was a valuable first dive into programming graphics in 3D space. It was also an interesting experience creating the OBJ loader as it was something that was quite a struggle to construct, but a huge sense of achievement once successfully completed. This project demonstrates a better approach to object oriented design than the PACMAN project above but I recognise that there are areas for further code optimisation.
-										</p>
-									</div>
-								</div>
-							</section>
 
-						<!-- Four -->
+						<!-- Four Mario -->
 							<section id="four" class="wrapper spotlight style3">
 								<div class="inner">
 									<a href="#" class="image"><img src="images/mario.gif" alt="" /></a>
